@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class DragController : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    public GameObject mydraggablesprite;
+    public static GameObject mydraggablesprite;
     Vector3 startPosition;
     float zDistanceToCamera;
     Vector3 touchOffset;
