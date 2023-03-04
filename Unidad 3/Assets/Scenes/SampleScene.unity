@@ -352,6 +352,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletPrefab: {fileID: 7213724506513054606, guid: e20bb9c8ad1575044a5ce121dd525d44, type: 3}
+  Speed: 2
+  JumpForce: 150
 --- !u!70 &1014242046
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -388,7 +390,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1419968381
 GameObject:
   m_ObjectHideFlags: 0
