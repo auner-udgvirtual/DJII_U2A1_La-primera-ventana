@@ -32,6 +32,11 @@ public class ScoreScript : MonoBehaviour
         {
             scoreText.text = "Nivel Completado!";
             AddData();
+            Application.Quit();
+        }
+        if ( Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 
