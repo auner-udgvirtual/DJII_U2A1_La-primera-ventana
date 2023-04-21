@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "848156709569",
+    "project_id": "a-odjii",
+    "storage_bucket": "a-odjii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848156709569:android:2d22f9dd1cfb116e1ffa40",
+        "android_client_info": {
+          "package_name": "com.udgvirtual.ODJII_2023A"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848156709569-nmhjbtsa713l5jbb7i68d1onn2uu8sm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClBgkoWLSAOANXCRISJXjeVnQIo_eQ3_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848156709569-nmhjbtsa713l5jbb7i68d1onn2uu8sm2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "848156709569-v0lqfjvj7sbtgfvh0i7fhuvnfle3h025.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.udgvirtual.ODJII-2023A"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

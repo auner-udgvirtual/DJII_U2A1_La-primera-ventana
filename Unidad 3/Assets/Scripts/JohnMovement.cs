@@ -13,6 +13,8 @@ public class JohnMovement : MonoBehaviour
     private Animator Animator;
     private float Horizontal;
     private bool Grounded;
+    private float LastShoot;
+    private int Health = 5;
 
     void Start()
     {
@@ -42,9 +44,10 @@ public class JohnMovement : MonoBehaviour
             Jump();
         }
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)
         {
             Shoot();
+            LastShoot = Time.time;
         }
     }
 
@@ -68,6 +71,10 @@ public class JohnMovement : MonoBehaviour
         Rigidbody2D.AddForce(Vector2.up * JumpForce);
     }
 
-
+    public void Hit()
+    {
+        Health = Health - 1;
+        if (Health == 0) Destroy(gameObject);
+    }
 
 }
