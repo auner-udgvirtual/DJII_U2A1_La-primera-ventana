@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 62208599}
-  impulseForce: 3
+  impulseForce: 5
 --- !u!54 &62208599
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -688,6 +688,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143866884}
   m_CullTransparentMesh: 1
+--- !u!1 &1334465526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6517581803399949411, guid: 58c611cf2878b894ead0957dd33539fc, type: 3}
+  m_PrefabInstance: {fileID: 5568514913376659639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1334465531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334465526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b889c8cc07f524b4eb60bd7c94565be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1445791511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,14 +1027,6 @@ PrefabInstance:
       value: HelixTop
       objectReference: {fileID: 0}
     - target: {fileID: 3626597660567561562, guid: 58c611cf2878b894ead0957dd33539fc, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6710226135312163992, guid: 58c611cf2878b894ead0957dd33539fc, type: 3}
-      propertyPath: m_CookingOptions
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745397016686512577, guid: 58c611cf2878b894ead0957dd33539fc, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
